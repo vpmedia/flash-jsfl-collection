@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="combineTF" title="Combine TextFields" buttons="accept,cancel">
+	
+		<vbox>
+			<label value="Sort from:" />
+			<radiogroup id="sortby" tabindex="5">
+				<radio label="top" accesskey="t" selected="true"/>
+				<radio label="left" accesskey="l" />
+				<radio label="bottom" accesskey="b" />
+				<radio label="right" accesskey="r" />
+			</radiogroup>
+		</vbox>
+		<spacer />
+		<hbox>
+			<label value="Separator:" />
+		</hbox>
+		<hbox>
+			<label value="(\r = hard return, \n = soft return)" />
+		</hbox>
+		<hbox>
+			<textbox id="separator" maxlength="20" multiline="false" value="" tabindex="1" size="12" literal="false" />
+		</hbox>
+	
+</dialog>

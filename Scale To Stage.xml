@@ -1,0 +1,14 @@
+<dialog id="gg_dialog" title="Scale To Stage" buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="Margin:" />
+				<textbox id="margin" value="0" />
+			</row>
+		</rows>
+	</grid>
+</dialog>

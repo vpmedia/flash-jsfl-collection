@@ -1,0 +1,44 @@
+<dialog id="gg_dialog" title="Slice Bitmap Instance" buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="Rows: " />
+				<textbox id="v" value="3" />
+			</row>
+			<row>
+				<label value="Columns: " />
+				<textbox id="h" value="3" />
+			</row>
+			<row>
+				<label value="Spacing: " />
+				<textbox id="s" value="0" />
+			</row>
+			<row>
+				<label value="Option: "/>
+				<menulist id="o">
+					<menupop>
+						<menuitem label="Mask" value="mask" />
+						<menuitem label="Cut" value="cut" />
+					</menupop>
+				</menulist>
+			</row>
+			<row>
+				<label value="Convert to: "/>
+				<menulist id="t">
+					<menupop>
+						<menuitem label="graphic" value="graphic" />
+						<menuitem label="movie clip" value="movie clip" />
+					</menupop>
+				</menulist>
+			</row>
+			<row>
+				<label value="Name prefix: " />
+				<textbox id="p" value="slice_" />
+			</row>
+		<rows>
+	</grid>
+</dialog>

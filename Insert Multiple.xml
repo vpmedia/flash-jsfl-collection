@@ -1,0 +1,26 @@
+<dialog id="gg_dialog" title="Insert Multiple" buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="Quantity: "/>
+				<textbox id="quantity" value="10" />
+			</row>
+			<row>
+				<label value="Type: "/>
+				<menulist id="frameType">
+					<menupop>
+						<menuitem label="Frame" value="frame" />
+						<menuitem label="Keyframe" value="keyframe" />
+						<menuitem label="Blank Keyframe" value="blankkeyframe" />
+						<menuitem label="Layer" value="layer" />
+					</menupop>
+				</menulist>
+
+			</row>
+		</rows>
+	</grid>
+</dialog>

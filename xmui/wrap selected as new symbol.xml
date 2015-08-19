@@ -1,0 +1,43 @@
+<dialog id="ConvertAllToClips" title="Wrap selected items as new symbol" buttons="accept,cancel">
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<row>
+			<label value="Item type " control="itemType" />
+			<menulist id="itemType">
+				<menupop>
+					<menuitem label="movie clip" selected="true" />
+					<menuitem label="button" selected="false" />
+					<menuitem label="graphic" selected="false" />
+				</menupop>
+			</menulist>
+		</row>
+		<row>
+			<label value="Registration Point" control="regPoint" />
+			<menulist id="regPoint">
+				<menupop>
+					<menuitem label="top left" selected="true" />
+					<menuitem label="top center" selected="false" />
+					<menuitem label="top right" selected="false" />
+					<menuitem label="center left" selected="false" />
+					<menuitem label="center" selected="false" />
+					<menuitem label="center right" selected="false" />
+					<menuitem label="bottom left" selected="false" />
+					<menuitem label="bottom center" selected="false" />
+					<menuitem label="bottom right" selected="false" />
+				</menupop>
+			</menulist>
+		</row>
+		<row>
+			<label value="Item name prefix " control="itemName" /><textbox id="itemName" value="convertedItem_" maxlength="100" />
+		</row>
+		<row>
+			<label value="Folder name " control="folderName" /><textbox id="folderName" value="_convertedItems" maxlength="100" />
+		</row>
+		<row>
+			<label value="Use leading zeroes " control="leadingZeroes" /><checkbox id="leadingZeroes" />
+		</row>
+	</grid>
+</dialog>

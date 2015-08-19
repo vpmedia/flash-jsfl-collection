@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root lang="en_GB">
+  <items>
+    <item id="tf1"><![CDATA[<textrun face="Georgia" size="24" bold="false" italic="false" colour="#000000">Hello world!</textrun>]]></item>
+    <item id="tf2"><![CDATA[<textrun face="Georgia" size="15" bold="false" italic="false" colour="#000000">What's up? I appear in an incorrectly named<br/>TextField</textrun>]]></item>
+    <item id="tf3"><![CDATA[<textrun face="Georgia" size="24" bold="false" italic="false" colour="#000000">Greetz. I only appear in the Library.</textrun>]]></item>
+    <item id="tf4"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">ANOTHER TEST.</textrun>]]></item>
+    <item id="tf5"><![CDATA[<textrun face="Georgia" size="24" bold="false" italic="false" colour="#000000">Howdy, I appear in multiple places.</textrun>]]></item>
+    <item id="tf6"><![CDATA[<textrun face="Georgia" size="24" bold="false" italic="false" colour="#000000">Greetz. I also only appear in the Library.</textrun>]]></item>
+    <item id="tf7"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">Hello, I'm static TextField 2 of 2 sat on a MovieClip timeline!</textrun>]]></item>
+    <item id="tf8"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">Hello, I'm static TextField 1 of 2 sat on a MovieClip timeline!</textrun>]]></item>
+    <item id="tf9"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">Hello, I'm a static TextField sat on a Graphic timeline somewhere!</textrun>]]></item>
+    <item id="tf10"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">Hello, I'm a static TextField sat directly<br/>on the main stage!</textrun>]]></item>
+    <item id="tf11"><![CDATA[<textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </textrun><textrun face="Georgia Bold" size="14" bold="true" italic="false" colour="#000000">labore</textrun><textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000"> et dolore magna aliqua.<br/><br/>Ut enim ad </textrun><textrun face="Georgia Italic" size="14" bold="false" italic="true" colour="#000000">minim veniam,</textrun><textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000"> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </textrun><textrun face="Georgia" size="14" bold="false" italic="false" colour="#006699">commodo</textrun><textrun face="Georgia" size="14" bold="false" italic="false" colour="#000000"> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br/><br/></textrun><textrun face="Georgia" size="24" bold="false" italic="false" colour="#000000">Big font.</textrun>]]></item>
+  </items>
+</root>

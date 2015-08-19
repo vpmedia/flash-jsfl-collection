@@ -1,0 +1,10 @@
+<dialog buttons="accept,cancel" title="Transform Selected Objects">
+	
+	<checkbox label="Transform Scale" id="_scale" checked="true" />
+	
+	<label value="Width" control="_wid" />
+	<textbox maxlength="5" multiline="false" value="100" id="_wid" /> 
+	<label value="Height" control="_hei" />
+	<textbox maxlength="5" multiline="false" value="100" id="_hei" /> 
+	
+</dialog>

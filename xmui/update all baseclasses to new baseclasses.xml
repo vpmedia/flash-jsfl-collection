@@ -1,0 +1,14 @@
+<dialog id="updateAllBaseClassesToNew" title="Update All Matching Base Classes" buttons="accept,cancel">
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<row>
+			<label value="Current Base Class " control="currentBaseClassControl" /><textbox id="currentBaseClass" value="" maxlength="512" />
+		</row>
+		<row>
+			<label value="New Base Class " control="newBaseClassControl" /><textbox id="newBaseClass" value="" maxlength="512" />
+		</row>
+	</grid>
+</dialog>

@@ -1,0 +1,14 @@
+<dialog id="ui" title="SetPrefix" buttons="accept, cancel">
+<grid>
+ <columns>
+  <column/>
+  <column/>
+ </columns>
+ <rows>
+  <row>
+    <label value="prefix:   " control="prefix" />
+      <textbox id="prefix" width="25pix" /> 
+  </row>
+ </rows>
+</grid>
+</dialog>

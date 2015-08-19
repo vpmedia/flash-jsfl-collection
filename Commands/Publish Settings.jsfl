@@ -1,0 +1,1 @@
+﻿var doc = fl.getDocumentDOM();doc.as3AutoDeclare = false;doc.sourcePath = "../src";doc.libraryPath = "../lib";

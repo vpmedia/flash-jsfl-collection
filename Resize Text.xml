@@ -1,0 +1,18 @@
+<dialog id="gg_dialog" title="Resize Text" buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="Width:" />
+				<textbox id="w" value="550" />
+			</row>
+			<row>
+				<label value="Height:" />
+				<textbox id="h" value="400" />
+			</row>
+		</rows>
+	</grid>
+</dialog>

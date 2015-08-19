@@ -1,0 +1,1 @@
+﻿/** * A batch compiler that publishes each opened FLA. * Created by Colin Duffy on 3/27/2011 * http://blog.tomorrowevening.com/ */ var docs = fl.documents;var totalDocs = docs.length;if( totalDocs > 0 ) {	var log = "Batch Compiled";	for( var i = 0; i < totalDocs; i++ ) {		log += "\n  + " + docs[i].name;		docs[i].publish();	}	fl.trace( log );	log = null;}

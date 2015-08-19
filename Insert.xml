@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dialog title="Insert character"  buttons="accept,cancel" buttonlabelcancel="Cancel" buttonlabelaccept="Insert">
+	<caption label="Characters" />
+	<radiogroup id="choices">
+		<radio id="reg" label="�" value="reg" />
+		<radio id="trade" label="TM" value="trade" />
+		<radio id="copy" label="�" value="copy" />
+		<radio id="bullet" label="&lt;bullet&gt;" value="bullet" />
+		<radio id="apos" label="’" value="apos" />
+	</radiogroup>
+	<separator />
+	<checkbox id="superscript" label="Superscript" checked="true" />
+</dialog> 

@@ -1,0 +1,11 @@
+<dialog title="Layer to Frame / Frame to Layer" buttons="accept,cancel">
+<radiogroup id="switchMethod">
+	<radio value="0" label="Layer to Frame: Bottom First" />     
+	<radio value="1" label="Layer to Frame: Top First" />
+	<separator />
+	<radio value="2" label="Frame to Layer: Starting Frame as Top" />      
+	<radio value="3" label="Frame to Layer: Last Frame as Top" />   
+</radiogroup>
+<separator />
+<checkbox id="isDelete" label="Delete Frame Element" checked="true" accesskey="d" align="right" />
+</dialog>

@@ -1,0 +1,20 @@
+<dialog buttons="accept,cancel" title="Layer Properties">
+
+	<!--  Layer Properties  -->
+	<checkbox label="Shown" id="_seen" checked="true" />
+	<checkbox label="Locked" id="_locked" checked="false" />
+	
+	<label value="Layer Type:" control="_type" />
+	<menulist id="_type">
+		<menuitem label="Normal" value="_normal" />
+		<menuitem label="Guide" value="_guide" />
+		<menuitem label="Mask" value="_mask" />
+		<menuitem label="Folder" value="_folder" />
+	</menulist>
+	
+	<!--  Color Properties  -->
+	
+	<label value="Outline Color:" control="_color" />
+	<textbox maxlength="6" multiline="false" value="" id="_color" /> 
+	
+</dialog>

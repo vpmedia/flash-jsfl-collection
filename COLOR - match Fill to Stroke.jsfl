@@ -1,0 +1,1 @@
+﻿//Match Fill to Stroke//by Justin Putney//http://putney.ajarproductions.com//version 1.0.0var dom = fl.getDocumentDOM();var stroke = dom.getCustomStroke('toolbar'); if(stroke.style != "noStroke") {dom.swapStrokeAndFill();dom.setCustomStroke(stroke);}else {	var fill = dom.getCustomFill('toolbar');	fill.style = "noFill";	dom.setCustomFill( fill );}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dialog id="setSymbolClass" title="Mixmedia Flash Toolset" buttons="accept, cancel">
+<hbox>
+<label value="Instance Name:" control="asIDDisplay"/>
+<textbox id="insName" maxlength="256" multiline="false" value=""/>
+</hbox>
+<hbox>
+<label value="Column:" control="asclass" width="100"/>
+<textbox id="colCount" maxlength="256" multiline="false" value="10"/>
+<label value="Row:" control="asclass" width="70"/>
+<textbox id="rowCount" maxlength="256" multiline="false" value="10"/>
+</hbox>
+<hbox>
+<label value="Column Width:" control="asclass" width="100"/>
+<textbox id="colWidth" maxlength="256" multiline="false" value="30"/>
+<label value="Row Height:" control="asclass" width="70"/>
+<textbox id="rowHeight" maxlength="256" multiline="false" value="30"/>
+</hbox>
+</dialog>

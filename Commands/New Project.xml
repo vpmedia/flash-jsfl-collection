@@ -1,0 +1,1 @@
+﻿<dialog title="New Project" buttons="accept,cancel">		<label value="Project Name" control="_str" />	<textbox maxlength="60" multiline="false" value="" id="_str" />	</dialog>
